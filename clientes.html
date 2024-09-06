@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Clientes</h1>
+            <a href="index.html">Voltar 🏠</a>
+        </div>
+
+        <form id="clienteForm">
+            <label for="nomeCliente">Cliente:</label>
+            <input type="text" id="nomeCliente" required>
+            <label for="telefoneCliente">Telefone:</label>
+            <input type="text" id="telefoneCliente" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <h2>Registros:</h2>
+        <ul id="listaClientes"></ul>
+    </div>
+    <footer>
+        <p>Unifor - Desenvolvimento de Software em Nuvem</p>
+    </footer>
+    <script src="clientes.js"></script>
+</body>
+
+</html>
