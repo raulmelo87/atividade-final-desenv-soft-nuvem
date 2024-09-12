@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             atualizarLista();
         }
     }
-
+    
     function deletarServico(index) {
         servicos.splice(index, 1);
         salvarServicos();
