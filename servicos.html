@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Serviços</h1>
+            <a href="index.html">Voltar 🏠</a>
+        </div>
+        <form id="servicoForm">
+            <label for="nomeServico">Serviço:</label>
+            <input type="text" id="nomeServico" required>
+            <label for="valorServico">Valor:</label>
+            <input type="number" id="valorServico" required step="0.01" min="0">
+            <button type="submit">Adicionar</button>
+        </form>
+        <h2>Registros:</h2>
+        <ul id="listaServicos"></ul>
+    </div>
+    <footer>
+        <p>Unifor - Desenvolvimento de Software em Nuvem</p>
+    </footer>
+    <script src="servicos.js"></script>
+</body>
+</html>
